@@ -1,0 +1,737 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:wght@700&display=swap');
+
+:root {
+    --white: #dfdddd;
+    --transparent-black: rgba(0, 0, 0, 0.786);
+}
+
+html,body{
+    font-family: 'Nunito', sans-serif;
+    color:#1c1c1c;
+    margin: 0px;
+}
+/* Titulos/fontes */
+h1, h2{
+    font-family: 'Asap', sans-serif;
+    color:#000000;
+}
+h3{
+    font-family: 'Asap', sans-serif;
+}
+/* Cabeçalho/Barra de navegação */
+#navega{
+    display:flex;
+    justify-content: space-around;
+    background-color: #191970;
+}
+#topo{
+    display:flex;
+    margin:0px;
+    margin-right: 10px;
+}
+li{
+    padding: 5px;
+    height: 40px;
+}
+li > a{
+    font-family: 'roboto';
+    font-size: 1rem;
+}
+li > a:hover{
+    transition: 0.1s;
+    border-bottom: solid 2px white;
+}
+/* formulario do cabeçalho */
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-right: 60px;
+    background-color: rgba(255, 255, 255, 0.904);
+    border-radius: 10px;
+    color: #2d3d9d;
+    box-shadow: 0 0 5px black;
+    margin: 20px;
+}
+.conteudo{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+form > .selectLog > div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+    margin: 20px 20px 5px 20px;
+}
+.selectLog{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 10px 0px 10px;
+}
+.selectlog > div > p {
+    margin:0px;
+}
+#data-inicio{
+    width: 100%;
+    outline-style: none;
+    border-radius: 3px;
+    border: 1em;
+    box-shadow: 0px 0px 2px ;
+    height: 37px;
+}
+.bt{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin: 20px 20px 0px 0px;
+}
+#btformulario{
+    background-color: #191970e0;
+    color: white;
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+}
+/* Logo */
+.logo{
+    margin: 10px 0px 10px 0px;
+    height: 60px;
+}
+
+/* Seção Carrossel */
+
+#tamanho{
+    height: 500px;
+}
+
+#corh5{
+    color: #76a004;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+#tamanhoP{
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.carousel-caption {
+    color: var(--white);
+    background: var(--transparent-black);
+}
+
+/* Seção quem somos */
+.apresentacao{
+    background-image: url("./gameLifeStyle.PNG");;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #ffffff;
+    padding: 20px;
+}
+.faseDeEfeito{
+    width: 50%;
+}
+.apresentacao > .text-apresentacao > h1{
+    color: white;
+    width: 100%;
+}
+.apresentacao > .text-apresentacao > p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    color: rgb(240, 240, 240);
+    width: 70%;
+    text-align: justify;
+}
+.apresentacao > .text-apresentacao > h2{
+    color: white;
+    font-size: 2rem;
+    font-family: 'Gentium Book Plus', serif;
+    width: 100%;
+}
+.apresentacao > div{
+    margin: 20px;
+}
+.text-apresentacao{
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: column;
+}
+/* Sessão de produto e promoções */
+#promocao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: black;
+}
+#promocao > .promo-texto > p{
+    letter-spacing: 1px;
+    font-family: 'Roboto', Arial;
+    margin-bottom: 2.5em;
+    color: #9b9dc3;
+}
+.promo-texto{
+    margin-top: 50px;
+}
+.promo-texto > h2{
+    color: #2d318b;
+    margin-bottom: 40px;
+}
+.card-promo{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.promo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+    width: 250px;
+    height: 400px;
+    border-radius: 10px;
+    color: white;
+    background-image: url("./fundo-promo.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+} 
+
+#league{
+    background-image: url("./lol.jpg");
+}
+
+#halo{
+    background-image: url("./halo5.png");
+}
+
+#pubg{
+    background-image: url("./pubg1.png");
+}
+
+#mortalKombat{
+    background-image: url("./mortalKombat.png");
+}
+
+#crossFire{
+    background-image: url("./crossFire1.png");
+}
+
+#theWitcher{
+    background-image: url("./theWitcher.png");
+}
+
+#fortnite{
+    background-image: url("./fortnite1.png");
+}
+
+#atomicHeart{
+    background-image: url("./atomicHeart.png");
+}
+
+.promo-continente{
+    width: 100%;
+    height: 60%;
+}
+.promo-contem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+.promo-valor{
+    display: flex;
+    flex-direction: row-reverse;
+    color:#8e91d4;
+}
+.promo-complemento{
+    display: flex;
+    flex-direction: column;
+    color:#8e91d4;   
+}
+.promo-title{
+    font-size: 3rem;
+    min-height: 7rem;
+    margin: 5px;
+    font-weight: bolder;
+}
+.promo-title1{
+    display: flex;
+    justify-content: center;
+    font-size: 33px;
+    font-weight: bold;
+    margin: 0px;
+}
+.items1{
+    font-size: 1.8rem;
+    line-height: 5rem;
+    margin-left: 10px;
+}
+.atribu-margin{
+    margin-top: 60px;
+}
+.items2{
+    font-size: 4rem;
+    line-height: 2.5rem;
+    font-weight: bold;
+}
+.items3{
+    font-size: 2rem;
+    line-height: 2.5rem;
+    font-weight: bold;
+    margin:0px;
+}
+.items4{
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: normal;
+    padding-left: 10px;
+    margin: 0px;
+}
+.botao{
+    display:flex;
+    justify-content: center;
+    width: 100%;
+}
+#botao-promo{
+    color: #090d80;
+    width: 80%;
+    margin-top: 5px;
+    font-size: 1.5rem;
+}
+/* informe / propaganda dos serviços */
+#informe{
+    display: flex;
+    justify-content: center;
+    background-image: url("./letsPlay.jpg");
+    background-attachment: fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#informe > .caixaDeTexto{
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.781);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    margin: 100px 0px 100px 0px;
+    border-radius: 8px;
+}
+#informe > .caixaDeTexto > p{
+    font-family: 'Roboto', Arial;
+    color: #4e4e4e;
+    width: 80%;
+    text-align: justify;
+}
+#informe > .caixaDeTexto > h1{
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Roboto', Arial;
+    color: #013b77;
+}
+/* Sessão de times */
+
+.time{
+    background-color:rgb(255, 255, 255, 0.01);
+    padding: 50px 0px;
+    min-height: 300px;    
+}
+
+.carrossel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0px;
+    flex-direction: column;
+    text-align: center;
+}   
+.carousel-item > h2{
+    margin: 30px;
+}
+
+/* Sessão de fotos  */
+#fotos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+#fotos h2 {
+    margin-bottom: 20px;
+}
+#fotos img{
+    width: 100%;
+}
+/* Rodape */
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 10px;
+    background-color: #191970;
+    color: #ffffff;
+}
+.box-table{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: white;
+    padding: 10px;
+}
+hr{
+    width: 100%;
+    padding: 1px;
+}
+footer > div > table, tr{
+    display: flex;
+    flex-direction: column;
+}
+footer a{
+    color: white;
+}
+footer a:hover{
+    color: white;
+} 
+.rodFlex{
+    text-decoration: none;
+    display: flex;
+}
+.tab{
+    margin-top: 50px;
+}
+.red-sociais{
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.red-sociais > div > a{
+    margin: 5px;
+}
+@media (max-width:320px) { 
+    /* text-deapresentacao */
+    .text-apresentacao{
+        width: 600px;
+    }
+    /* apresentacao */
+    .apresentacao{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    /* formulario  */
+    form{
+        width: 500px;
+        height: auto;
+    }
+    /* inputs e label do form */
+    .selectLog{
+        width: 200px;
+    }
+    .items{
+        margin-top: 5px;
+    }
+    .item-1{
+        margin-top: 8px;
+    }
+    /* botão do formulario */
+    .bt > button{
+        width: 200px;
+        height: 47px;
+        margin-bottom: 50px;
+    }
+    #informe > .caixaDeTexto{
+        width: 90%;
+    }
+    #informe > .caixaDeTexto > p{
+        font-size: 1.7rem;
+    }
+    #informe > .caixaDeTexto > h1{
+        font-size: 2rem;
+        margin: 10px;
+    }
+}
+@media (min-width:320px) { 
+    /* text-deapresentacao */
+    .text-apresentacao{
+        width: 600px;
+    }
+    /* apresentacao */
+    .apresentacao{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    /* formulario  */
+    form{
+        width: 700px;
+        height: auto;
+    }
+    /* inputs e label do form */
+    .selectLog{
+        width: 250px;
+    }
+    .items{
+        margin-top: 5px;
+    }
+    .item-1{
+        margin-top: 8px;
+    }
+    /* botão do formulario */
+    .bt > button{
+        width: 250px;
+        height: 47px;
+        margin-bottom: 50px;
+    }
+    #informe > .caixaDeTexto{
+        width: 90%;
+    }
+    #informe > .caixaDeTexto > p{
+        font-size: 1.7rem;
+    }
+    #informe > .caixaDeTexto > h1{
+        font-size: 2.5rem;
+    }
+}
+@media (min-width:480px) {  
+    /* text-deapresentacao */
+    .text-apresentacao{
+        width: 600px;
+    }
+    /* apresentacao */
+    .apresentacao{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    /* formulario  */
+    form{
+        width: 700px;
+        height: auto;
+    }
+    /* inputs e label do form */
+    .selectLog{
+        width: 300px;
+    }
+    .items{
+        margin-top: 5px;
+    }
+    .item-1{
+        margin-top: 8px;
+    }
+    /* botão do formulario */
+    .bt > button{
+        width: 300px;
+        height: 47px;
+        margin-bottom: 50px;
+    }
+    #informe > .caixaDeTexto{
+        width: 90%;
+    }
+    #informe > .caixaDeTexto > p{
+        font-size: 1.7rem;
+    }
+    #informe > .caixaDeTexto > h1{
+        font-size: 3rem;
+    }
+}
+@media (min-width:600px) { 
+    /* Promoção sobre viagens continentais*/
+    #promocao > div > h1{
+        font-size:30px;
+    }
+    /* text-deapresentacao */
+    .text-apresentacao{
+        width: 600px;
+    }
+    /* apresentacao */
+    .apresentacao{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    /* formulario  */
+    form{
+        width: 700px;
+        height: 400px;
+    }
+    #nome{
+        margin-top: 50px;
+    }
+    /* inputs e label do form */
+    .selectLog{
+        width: 200px;
+    }
+    /* botão do formulario */
+    .bt > button{
+        width: 470px;
+        height: 47px;
+    }
+    #informe > .caixaDeTexto{
+        width: 80%;
+    }
+    #informe > .caixaDeTexto > p{
+        font-size: 1.7rem;
+    }
+    #informe > .caixaDeTexto > h1{
+        font-size: 3rem;
+    }
+}
+@media (min-width:801px) { 
+    /* Sessão de fotos */
+    #fotos{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #fotos h2{
+        width: 100%;
+        text-align: center;
+    }
+    #fotos img{
+        width: 33.333333%;
+    }
+    /* text-deapresentacao */
+    .text-apresentacao{
+        width: 600px;
+    }
+    /* apresentacao */
+    .apresentacao{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    /* formulario  */
+    form{
+        width: 700px;
+        height: 400px;
+    }
+    #nome{
+        margin-top: 50px;
+    }
+    /* inputs e label do form */
+    .selectLog{
+        width: 250px;
+    }
+    /* botão do formulario */
+    .bt > button{
+        width: 600px;
+        height: 47px;
+    }
+    #informe > .caixaDeTexto{
+        width: 70%;
+    }
+    #informe > .caixaDeTexto > p{
+        font-size: 1.7rem;
+    }
+    #informe > .caixaDeTexto > h1{
+        font-size: 3rem;
+    }
+}
+@media (min-width:1025px) { 
+    /* text-deapresentacao */
+    .text-apresentacao{
+        width: 400px;
+    }
+    /* apresentacao */
+    .apresentacao{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    /* formulario  */
+    form{
+        width: 400px;
+        height: 400px;
+    }
+    #nome{
+        margin-top: 50px;
+    }
+    /* inputs e label do form */
+    .selectLog{
+        width: 180px;
+    }
+    /* botão do formulario */
+    .bt > button{
+        width: 380px;
+        height: 47px;
+    }
+    #informe > .caixaDeTexto{
+        width: 60%;
+    }
+    #informe > .caixaDeTexto > p{
+        font-size: 1.7rem;
+    }
+    #informe > .caixaDeTexto > h1{
+        font-size: 3rem;
+    }
+}
+@media (min-width:1281px) { 
+    /* text-deapresentacao */
+    .text-apresentacao{
+        width: 600px;
+    }
+    /* apresentacao */
+    .apresentacao{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    /* formulario  */
+    form{
+        width: 500px;
+        height: 400px;
+    }
+    #nome{
+        margin-top: 50px;
+    }
+    /* inputs e label do form */
+    .selectLog{
+        width: 180px;
+    }
+    /* botão do formulario */
+    .bt > button{
+        width: 380px;
+        height: 47px;
+    }
+    /* barra de promoções */
+    #promocao > .promo-texto > p{
+        font-size: 20px;
+        max-width: 1000px;
+    }
+    #informe > .caixaDeTexto{
+        width: 60%;
+    }
+    #informe > .caixaDeTexto > p{
+        font-size: 1.7rem;
+    }
+    #informe > .caixaDeTexto > h1{
+        font-size: 3rem;
+    }
+}
