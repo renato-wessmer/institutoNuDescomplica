@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="shortcut icon" href="../assets/favicon/logo-ico-SFundo.png" type="image/x-icon">
+    <title>Game Life Style</title>
+    <!-- Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,700&family=Nunito:wght@700&family=Yellowtail&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Cabeçalho/Barra de navegação -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark" id="navega">
+            <div id="topo">
+                <a href="#"><img class="logo" src="../assets/logo/game-life-style.png" alt="Logo Life Style"></a>
+            </div>
+            <div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#quemSomos">QUEM SOMOS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#produtosepromocoes">PRODUTOS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#nossotime">NOSSO TIME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#contato">CONTATO</a>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- main com todas as seções -->
+    <main>
+        <!-- Seção de carrossel-->
+        <section>
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../assets/banner/leagueOfLegends.png" class="d-block w-100" alt="..." id="tamanho">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 id="corh5">League Of Legends</h5>
+                            <p id="tamanhoP">League of Legends é um jogo em equipes com mais de 140 Campeões com os quais você pode fazer jogadas insanas. Jogue agora, é grátis!</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../assets/banner/pubg.png" class="d-block w-100" alt="..." id="tamanho">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 id="corh5">PUBG</h5>
+                            <p id="tamanhoP">Um battle royale de sobrevivência em uma ilha que lutam entre si até que apenas um sobreviva em vatos mapas e com armas realistas.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../assets/banner/crossFire.png" class="d-block w-100" alt="..." id="tamanho">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 id="corh5">CrossFire</h5>
+                            <p id="tamanhoP">CrossFire coloca os jogadores em dois times opostos, Mercenários e Terroristas, onde eles enfrentam missões e batalham em diferentes cenários e mapas.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../assets/banner/fortnite.png" class="d-block w-100" alt="..." id="tamanho">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 id="corh5">Fortnite</h5>
+                            <p id="tamanhoP">Além do battle royale, existe o modo de criação chamado "Salve o Mundo", onde cooperam para enfrentar hordas de inimigos e construir fortificações.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>    
+        <!-- Seção de Quem Somos-->
+        <section class="apresentacao">
+            <div class="text-apresentacao">
+                <h1 id="quemSomos">Quem Somos</h1>
+                <br>
+                <p>Somos a Game Life Style, abraçamos a cultura e o modo de vida dos apaixonados por jogos, transcendendo a mera diversão, através de competições, comunidades online e eventos, criamos conexões e identidade.</p>
+                <h2>Não importa o seu Style, vamos  celebrar a criatividade nas estratégias, camaradagem e paixão compartilhada por aqueles que encontraram nos jogos muito mais do que um simples entretenimento.</h2>
+            </div>
+        </section>
+        <!-- Seção de produtos e promoções -->
+        <section id="promocao">
+            <div class="promo-texto">
+                <h2 id="produtosepromocoes">Uma loja digital, rápida e barata.</h2>
+                <p>Aproveite as férias! Jogue com estilo e conforto e sem pagar muito por isso.
+                    Embarque em uma viagem de aventura, temos os melhores jogos para você.</p>
+            </div>
+            <div class="card-promo">
+                <div class="promo" id="league">
+                    <div class="promo-continente">
+                        <h5 class="promo-title">League of Legends</h5>
+                    </div>
+                    <div class="promo-contem">
+                        <div class="promo-valor">
+                            <p class="items2">R$170</p>
+                        </div>
+                        <div class="promo-complemento">
+                            <p class="items3">,83</p>
+                        </div>
+                    </div>
+                    <div class="botao">
+                        <a class="btn btn-success" id="botao-promo" role="button">Comprar</a>
+                    </div>
+                </div>
+                <div class="promo" id="halo">
+                    <div class="promo-continente">
+                        <h5 class="promo-title">Halo 5</h5>
+                    </div>
+                    <div class="promo-contem">
+                        <div class="promo-valor">
+                            <p class="items2">R$250</p>
+                        </div>
+                        <div class="promo-complemento">
+                            <p class="items3">,72</p>
+                        </div>
+                    </div>
+                    <div class="botao">
+                        <a class="btn btn-success" id="botao-promo" role="button">Comprar</a>
+                    </div>
+                </div>
+                <div class="promo" id="pubg">
+                    <div class="promo-continente">
+                        <h5 class="promo-title">PUBG</h5>
+                    </div>
+                    <div class="promo-contem">
+                        <div class="promo-valor">
+                            <p class="items2">R$13</p>
+                        </div>
+                        <div class="promo-complemento">
+                            <p class="items3">,75</p>
+                        </div>
+                    </div>
+                    <div class="botao">
+                        <a class="btn btn-success" id="botao-promo" role="button">Comprar</a>
+                    </div>
+                </div>
+                <div class="promo" id="mortalKombat">
+                    <div class="promo-continente">
+                        <h5 class="promo-title">Mortal Kombat</h5>
+                    </div>
+                    <div class="promo-contem">
+                        <div class="promo-valor">
+                            <p class="items2">R$135</p>
+                        </div>
+                        <div class="promo-complemento">
+                            <p class="items3">,00</p>
+                        </div>
+                    </div>
+                    <div class="botao">
+                        <a class="btn btn-success" id="botao-promo" role="button">Comprar</a>
+                    </div>
+                </div>
+                <div class="promo" id="crossFire">
+                    <div class="promo-continente">
+                        <h5 class="promo-title">CrossFire</h5>
+                    </div>
+                    <div class="promo-contem">
+                        <div class="promo-valor">
+                            <p class="items2">R$75</p>
+                        </div>
+                        <div class="promo-complemento">
+                            <p class="items3">,22</p>
+                        </div>
+                    </div>
+                    <div class="botao">
+                        <a class="btn btn-success" id="botao-promo" role="button">Comprar</a>
+                    </div>
+                </div>
+                <div class="promo" id="theWitcher">
+                    <div class="promo-continente">
+                        <h5 class="promo-title">The Witcher 3</h5>
+                    </div>
+                    <div class="promo-contem">
+                        <div class="promo-valor">
+                            <p class="items2">R$163</p>
+                        </div>
+                        <div class="promo-complemento">
+                            <p class="items3">,98</p>
+                        </div>
+                    </div>
+                    <div class="botao">
+                        <a class="btn btn-success" id="botao-promo" role="button">Comprar</a>
+                    </div>
+                </div>
+                <div class="promo" id="fortnite">
+                    <div class="promo-continente">
+                        <h5 class="promo-title">Fortnite</h5>
+                    </div>
+                    <div class="promo-contem">
+                        <div class="promo-valor">
+                            <p class="items2">R$800</p>
+                        </div>
+                        <div class="promo-complemento">
+                            <p class="items3">,92</p>
+                        </div>
+                    </div>
+                    <div class="botao">
+                        <a class="btn btn-success" id="botao-promo" role="button">Comprar</a>
+                    </div>
+                </div>
+                <div class="promo" id="atomicHeart">
+                    <div class="promo-continente">
+                        <h5 class="promo-title">Atomic Heart</h5>
+                    </div>
+                    <div class="promo-contem">
+                        <div class="promo-valor">
+                            <p class="items2">R$32</p>
+                        </div>
+                        <div class="promo-complemento">
+                            <p class="items3">,00</p>
+                        </div>
+                    </div>
+                    <div class="botao">
+                        <a class="btn btn-success" id="botao-promo" role="button">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Seção de informação-->
+        <section id="informe">
+            <div class="caixaDeTexto">
+                <h1>Sua satisfação é nosso maior <br> compromisso...</h1>
+                <br>
+                <p>Não importa qual o seu estilo, a diversidade dos desafios nos games é um dos principais atrativos, cada título apresenta mecânicas únicas e enigmas cativantes que testam diferentes habilidades, desde a estratégia até os reflexos.</p>
+                <p>Seja qual for a vibe, desde desafios solitários a experiências multijogador competitivas, temos um leque de opções para atender aos gostos mais diferentes dos jogadores.</p>
+            </div>
+        </section>
+        <!---Nosso time-->
+        <div class="time" id="nossotime">
+            <div class="container py-3">
+                <div class="row">
+                    <div class="col-md-12 text-center">                    
+                        <h2 class="text-color1">Nosso Time Maravilhoso</h2>
+                        <br>
+                        <p>
+                            Nossa equipe é formada por entusiastas apaixonados, dedicados e especializados no universo da tecnologia. Estamos constantemente atualizados com as mais recentes tendências do setor, oferecendo os jogos mais modernos do mercado, sempre com preços incríveis. Buscamos proporcionar uma experiência única aos nossos clientes, oferecendo produtos de alta qualidade para satisfazer todas as suas necessidades no mundo dos games. Seja qual for o seu interesse ou preferência, estamos prontos para atendê-lo com o que há de melhor e mais atual no cenário tecnológico.
+                        </p> 
+                        <br>                   
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 text-center">
+                        <div class="fs-2 mb-3">
+                            <img src="../assets/colaboradores/Amina de Zaria.png"  width="125" height="125"> 
+                            <h3 class="ny-3">Amina de Zaria</h3>
+                            <p class="lead text-muted">Desenvolvedora Full Stack</p>
+                        </div>
+                     </div>
+                    <div class="col-md-4 text-center">
+                        <div class="fs-2 mb-3">
+                            <img src="../assets/colaboradores/Nikola Tesla.png"  width="125" height="125">
+                            <h3 class="ny-3">Nikola Tesla</h3>
+                            <p class="lead text-muted">Fundador e CEO</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <div class="fs-2 mb-3">
+                            <img src="../assets/colaboradores/Hipólita U'Yara.png"  width="125" height="125">
+                            <h3 class="ny-3">Hipólita U'Yara</h3>
+                            <p class="lead text-muted">Gamer profissional</p>
+                        </div>
+                    </div>
+                </div>   
+            </div>
+        </div> 
+        <!-- Seção de fotos.-->
+        <section id="fotos">
+            <h2>Fotos</h2>
+            <img src="../assets/fotos/1.jpg">
+            <img src="../assets/fotos/2.jpg">
+            <img src="../assets/fotos/3.jpg">
+            <img src="../assets/fotos/4.jpg">
+            <img src="../assets/fotos/5.jpg">
+            <img src="../assets/fotos/6.jpg">
+        </section>
+    </main>
+    <!-- Rodape de apresentação de desenvolvimentor/voltar para o inicio do site-->
+    <footer>
+        <div class="red-sociais" id="contato">
+            <div>
+                <p>Conecte-se conosco nas redes sociais:</p>
+            </div>
+            <div>
+                <a href="#"><img width="25px" src="../assets/svg/twiter.svg" alt="twiter"></a>
+                <a href="#"><img width="25px" src="../assets/svg/gmail.svg" alt="gmail"></a>
+                <a href="#"><img width="25" src="../assets/svg/linkedin.svg" alt="linkedin"></a>
+                <a href="#"><img width="25" src="../assets/svg/github.svg" alt="github"></a>
+            </div>
+        </div>
+        <hr>
+        <div class="box-table">
+            <div class="tab">
+                <table>
+                    <tr>
+                        <th>
+                            <h3><img width="50" src="../assets/ico/logo-ico-SFundo.png" alt="">Game Life Style</h3>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>Empresa conceituada com 15 <br> anos no mercado. Os melhores <br> preços e serviços você
+                            encontra <br> aqui.</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="tab">
+                <table>
+                    <tr>
+                        <th><a class="rodFlex" href="">LINKS ÚTEIS</a></th>
+                    </tr>
+                    <tr>
+                        <td><a href="#quemSomos">QUEM SOMOS</a></td>
+                        <td><a href="#produtosepromocoes">PRODUTOS</a></td>
+                        <td><a href="#nossotime">NOSSO TIME</a></td>
+                        <td><a href="#">Suporte</a></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="tab">
+                <table>
+                    <tr>
+                        <th><a class="rodFlex" href="">CONTATO</a></th>
+                    </tr>
+                    <tr>
+                        <td><a class="rodFlex" href="#"> Brasil, Br 0000, BR</a></td>
+                        <td><a class="rodFlex" href="#"> info@example.com</a></td>
+                        <td><a class="rodFlex" href="#"> + 55 11 0000-0000</a></td>
+                        <td><a class="rodFlex" href="#"> + 55 11 0000-0000</a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="tab">
+            <p>&copy; 2023 Copyright: <a href="#navega">Game-Life-Style.com</a></p>
+
+        </div>
+    </footer>
+</body>
+
+</html>
